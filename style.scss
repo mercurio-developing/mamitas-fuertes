@@ -1,0 +1,107 @@
+@import "bootstrap";
+
+.logo{
+  width: 325px;
+  height: 75px;
+}
+
+a{
+  font-family: ITC Avant Garde Gothic Pro ;
+  font-size:14px;
+  color: #3A3A3B;
+}
+
+.button{
+  padding:9px 10px 6px 10px;
+  text-align: center;
+  font-family: ITC Avant Garde Gothic Pro;
+  font-size:14px;
+  background: #F9AA33 0% 0% no-repeat padding-box;
+  box-shadow: 0px 6px 6px #00000029;
+  color: rgba(58, 58, 59,0.8);
+  opacity: 1;
+  border:none;
+}
+
+.header {
+  .nav-item{
+    display: inline-block;
+    vertical-align: top;
+    .nav-link {
+      height: 48px;
+      text-align: center;
+      text-decoration: none;
+      font-weight: normal;
+      display:table-cell;
+      vertical-align:middle;
+      }
+  } 
+
+}
+.home{
+  .jumbo-section{
+    height:65vh;
+    background-image: url("public/assets/background_main_1.jpg");
+    background-position: -290px bottom;
+    background-repeat: no-repeat;
+    background-size: 110% 120%;
+  }
+  
+  .jumbotron{
+    background-color:transparent !important;
+    text-align: left;
+    font-family: ITC Avant Garde Gothic Pro;
+    letter-spacing: 0px;
+    color: #3A3A3B;
+    h1{
+      font-weight: 500 !important;
+    }
+    .button{
+      width: 160px;
+      height: 38px;
+    }
+  }
+  .quote{
+    height: 40vh;
+    background-color:#71ABC4;
+    p{
+      color: #FFFFFF;
+      font-size:26px;
+      font-weight: 400 !important;
+      font-family: ITC Avant Garde Gothic Pro;
+    }
+    .flower-icon{
+      width: 48px;
+      height: 48px;
+    }
+  }
+  .episodes{
+    height: 60vh;
+    h1{
+      line-height: 64px;
+      font-size:36px;
+      font-weight: 450 !important;
+      font-family: ITC Avant Garde Gothic Pro;
+      color: #3A3A3B;
+    }
+    .card{
+      font-family: ITC Avant Garde Gothic Pro,Book !important;
+      letter-spacing: 0px;
+      .date,.footer{
+        font-size:12px !important;
+      }
+      .title{
+        font-size:28px !important;
+        font-weight: 100 !important;
+        letter-spacing: 0.8px;
+      }
+    }
+  }
+  .about{
+    font-family: ITC Avant Garde Gothic Pro,Book !important;
+    color: #3A3A3B; 
+    h3{
+      font-weight: 400 !important;
+    }
+  }
+}
