@@ -1,5 +1,11 @@
 @import "bootstrap";
 
+body,#__next{
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+
 .logo{
   width: 325px;
   height: 75px;
@@ -37,6 +43,14 @@ a{
       }
   } 
 
+}
+.footer{
+  text-align: center;
+  vertical-align: bottom;
+  font: Book 12px/16px ITC Avant Garde Gothic Pro;
+  letter-spacing: 0px;
+  font-size: 10px;
+  color: #3A3A3B;
 }
 .home{
   .jumbo-section{
@@ -98,10 +112,38 @@ a{
     }
   }
   .about{
+    background-image: url("public/assets/background_main_2.jpg");
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
     font-family: ITC Avant Garde Gothic Pro,Book !important;
-    color: #3A3A3B; 
+    z-index: 1;
     h3{
       font-weight: 400 !important;
+      color: #3A3A3B !important; 
     }
   }
+}
+
+.about,.contact,.share{
+  height: 80vh;
+  color:#fff;
+  h4,h3{
+    font-family: ITC Avant Garde Gothic Pro,Book !important;
+    letter-spacing: 0px;
+    font-weight: 400;
+    color: #FFFFFF; 
+   }
+}
+.contact{
+  background-image: url("public/assets/background_contact.jpg");
+  background-position: -25px 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.share{
+  background-image: url("public/assets/background_compartir.jpg");
+  background-position: -25px 0;
+  background-repeat: no-repeat;
+  background-size: cover;
 }

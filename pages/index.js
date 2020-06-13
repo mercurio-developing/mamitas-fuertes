@@ -11,7 +11,7 @@ export default function Home() {
                   <h1 className="display-4 ">Un podcast para escuchar y compartir historias de partos positivos.</h1>
                   <button className="button mt-4">
                     Escuchar Ahora
-            </button>
+                  </button>
                 </div>
               </div>
             </div>
@@ -53,7 +53,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="col-12 about ">
+      <div className="col-12 about mb-2 ">
         <div className="container">
           <div className="row ">
             <div className="col-5">
