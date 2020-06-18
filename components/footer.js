@@ -24,7 +24,7 @@ export default function Footer({ isDefaultBack }) {
     <div className="row mt-2 pl-4">
       <div className="col-12">
         <span style={{ color: !isDefaultBack ? "#FFF" : "#3A3A3B" }}
-        >© 2020 Mamitas Fuertes Podcast Illustrations</span>
+        >© 2020 Mamitas Fuertes</span>
       </div>
     </div>
   </footer>

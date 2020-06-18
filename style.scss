@@ -1,16 +1,20 @@
 @import "bootstrap";
 
-body,#__next{
-  height: 100vh;
+body,#__next,.layout{
+  min-height: 100vh;
   overflow-x: hidden;
 }
 
-
-.logo{
-  width: 325px;
-  height: 75px;
+.navbar-toggler{
+  &:focus,&:active{
+    outline: transparent;
+  }
 }
 
+.logo{
+  width: 235px;
+  min-height: 55px;
+}
 a{
   font-family: ITC Avant Garde Gothic Pro ;
   font-size:14px;
@@ -27,6 +31,9 @@ a{
   color: rgba(58, 58, 59,0.8);
   opacity: 1;
   border:none;
+  &:focus{
+    outline:none
+  }
 }
 
 .header {
@@ -34,7 +41,7 @@ a{
     display: inline-block;
     vertical-align: top;
     .nav-link {
-      height: 48px;
+      min-height: 48px;
       text-align: center;
       text-decoration: none;
       font-weight: normal;
@@ -52,48 +59,49 @@ a{
   font-size: 10px;
   color: #3A3A3B;
 }
-.home{
-  .jumbo-section{
-    height:65vh;
-    background-image: url("public/assets/background_main_1.jpg");
-    background-position: -290px bottom;
-    background-repeat: no-repeat;
-    background-size: 110% 120%;
+.home{  
+  .home{
+    .jumbo-section{
+      background-image: none;
+    }
   }
-  
   .jumbotron{
     background-color:transparent !important;
     text-align: left;
     font-family: ITC Avant Garde Gothic Pro;
     letter-spacing: 0px;
     color: #3A3A3B;
-    h1{
+    h2{
+      font-family: ITC Avant Garde Gothic Pro;
+      letter-spacing: 0px;
+      color: #3A3A3B;
+      font-size:24px;
       font-weight: 500 !important;
     }
     .button{
       width: 160px;
-      height: 38px;
+      min-height: 38px;
     }
   }
   .quote{
-    height: 40vh;
+    min-height: 40vh;
     background-color:#71ABC4;
     p{
       color: #FFFFFF;
-      font-size:26px;
+      font-size:20px;
       font-weight: 400 !important;
       font-family: ITC Avant Garde Gothic Pro;
     }
     .flower-icon{
       width: 48px;
-      height: 48px;
+      min-height: 48px;
     }
   }
   .episodes{
-    height: 60vh;
-    h1{
+    min-height: 40vh;
+    h1,h4{
       line-height: 64px;
-      font-size:36px;
+      font-size:32px;
       font-weight: 450 !important;
       font-family: ITC Avant Garde Gothic Pro;
       color: #3A3A3B;
@@ -102,23 +110,21 @@ a{
       font-family: ITC Avant Garde Gothic Pro,Book !important;
       letter-spacing: 0px;
       .date,.footer{
-        font-size:12px !important;
+        font-size:11px !important;
       }
       .title{
-        font-size:28px !important;
+        font-size:13px !important;
         font-weight: 100 !important;
         letter-spacing: 0.8px;
       }
     }
   }
-  .about{
-    background-image: url("public/assets/background_main_2.jpg");
-    background-position: right bottom;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    font-family: ITC Avant Garde Gothic Pro,Book !important;
-    z-index: 1;
+  .home-about{
+    min-height: 30vh;
+    text-align: center !important;
+    background-image: none;
     h3{
+      font-size:18px !important;
       font-weight: 400 !important;
       color: #3A3A3B !important; 
     }
@@ -126,9 +132,16 @@ a{
 }
 
 .about,.contact,.share{
-  height: 80vh;
+  min-height: 80vh;
   color:#fff;
+  h1{
+    font-size:24px;
+    font-family: ITC Avant Garde Gothic Pro,Book !important;
+    letter-spacing: 0px;
+    font-weight: 400;
+  }
   h4,h3{
+    font-size:18px;
     font-family: ITC Avant Garde Gothic Pro,Book !important;
     letter-spacing: 0px;
     font-weight: 400;
@@ -136,14 +149,231 @@ a{
    }
 }
 .contact{
-  background-image: url("public/assets/background_contact.jpg");
-  background-position: -25px 0;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-image: none;
 }
 .share{
-  background-image: url("public/assets/background_compartir.jpg");
-  background-position: -25px 0;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-image: none;
 }
+.episode{
+  font-family: ITC Avant Garde Gothic Pro,Book !important;
+  letter-spacing: 0px;
+  h1,h4{
+    font-size:18px;
+    font-weight: 400;
+    font-family: ITC Avant Garde Gothic Pro,Book !important;
+    letter-spacing: 0px;
+    color: #3A3A3B;
+  }
+  .mother-name{
+    font-size:16px !important;
+  }
+  .date{
+    font-size:12px !important;
+  }
+}
+.episodes{
+  min-height: 50vh;
+  h1,h4{
+    line-height: 64px;
+    font-size:24px;
+    font-weight: 450 !important;
+    font-family: ITC Avant Garde Gothic Pro;
+    color: #3A3A3B;
+  }
+  h2{
+    line-height: 64px;
+    font-weight: 450 !important;
+    font-family: ITC Avant Garde Gothic Pro;
+    color: #3A3A3B;
+  }
+  .card{
+    font-family: ITC Avant Garde Gothic Pro,Book !important;
+    letter-spacing: 0px;
+    .date,.footer{
+      font-size:12px !important;
+    }
+    .title{
+      font-size:14px !important;
+      font-weight: 100 !important;
+      letter-spacing: 0.8px;
+    }
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { 
+  .home{
+    .jumbotron{
+      h2{
+        font-size:32px;
+      }
+    }
+    .episodes{
+      min-height: 45vh;
+    }
+    .home-about{
+      text-align: left !important;
+      min-height: 40vh;
+      .button{
+        margin-left:14px !important;
+      }
+      h3{
+        font-size:18px !important;
+      }
+    }
+ }
+ .about,.contact,.share{
+  height: 60vh;
+  h1{
+    font-size:36px;
+  }
+  h4,h3{
+    font-size:24px;
+   }
+}
+.episodes{
+  h1{
+    font-size:24px;
+  }
+}
+}
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { 
+  .logo{
+    width: 300px;
+    min-height: 75px;
+  }
+  
+  .home{
+    .quote{
+      p{
+        font-size:24px;
+      }
+    }
+    .episodes{
+      min-height: 60vh;
+      .card{
+        .date,.footer{
+          font-size:11px !important;
+        }
+        .title{
+          font-size:14px !important;
+        }
+      }
+    }
+    .home-about{
+      min-height: 40vh;
+      h3{
+        font-size:20px !important;
+      }
+    }
+  }
+  .about,.contact,.share{
+    min-height: 80vh;
+    h1{
+      font-size:42px;
+    }
+    h4,h3{
+      font-size:28px;
+     }
+  }
+
+  .episode{
+    h1,h4{
+      font-size:28px;
+    }
+    .mother-name{
+      font-size:18px !important;
+    }
+    .date{
+      font-size:14px !important;
+    }
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { 
+  .logo{
+    width: 350px;
+    min-height: 85px;
+  }
+  .home{
+    .quote{
+      p{
+        font-size:24px;
+      }
+    }
+    .episodes{
+      min-height: 70vh;
+      .card{
+        .date,.footer{
+          font-size:11px !important;
+        }
+        .title{
+          font-size:14px !important;
+        }
+      }
+    }
+    .home-about{
+      min-height: 70vh;
+      h3{
+        font-size:24px !important;
+      }
+    }
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { 
+  .home{
+    .jumbo-section{
+      min-height:65vh;
+      background-image: url("public/assets/background_main_1.jpg");
+      background-position: -290px bottom;
+      background-repeat: no-repeat;
+      background-size: 110% 120%;
+    }
+    .quote{
+      p{
+        font-size:26px;
+      }
+    }
+    .episodes{
+      min-height: 30vh;
+      .card{
+        .date,.footer{
+          font-size:12px !important;
+        }
+        .title{
+          font-size:14px !important;
+        }
+      }
+    }
+    .home-about{
+      min-height: 80vh;
+      background-image: url("public/assets/background_main_2.jpg");
+      background-position: right bottom;
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      font-family: ITC Avant Garde Gothic Pro,Book !important;
+      z-index: 1;
+      h3{
+        font-size:28px !important;
+        font-weight: 400 !important;
+        color: #3A3A3B !important; 
+      }
+    }
+   }
+  .contact{
+    background-image: url("public/assets/background_contact.jpg");
+    background-position: -250px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .share{
+    background-image: url("public/assets/background_compartir.jpg");
+    background-position: -250px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+ }
