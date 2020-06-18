@@ -33,7 +33,7 @@ const Home = (props) =>{
       <div className="col-12">
         <div className="row quote">
           <div className="col-10 col-sm-8 col-md-9 col-lg-6 col-xl-5 mx-auto my-auto text-center">
-            <p>"Hay un secreto en nuestra cultura, y no es que el parto sea doloroso. Es que las mujeres son fuertes".</p>
+            <p className="mt-4">"Hay un secreto en nuestra cultura, y no es que el parto sea doloroso. Es que las mujeres son fuertes".</p>
             <img className="flower-icon" src="/assets/flower_icon.svg" alt="" />
             <br />
             <br />
