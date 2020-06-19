@@ -9,13 +9,14 @@ export default function Episodes() {
     router.push({ pathname: `${href}` })
   }
   return <div className="container episodes mt-5 mb-5">
-   <h2 className="d-none d-sm-none d-md-none d-lg-block display-4 ">
-   Episodes</h2>
-  <h1 className="d-md-block d-lg-none "> Episodes</h1>
+    <h2 className="d-none d-sm-none d-md-none d-lg-block display-4 ">
+      Episodes</h2>
+    <h1 className="d-md-block d-lg-none "> Episodes</h1>
     <div className="row">
       <div className="col-12">
         <div className="row">
-          {data.map(episode => <div className="col-12 mr-auto mt-4">
+          {data.map(episode => <div className="col-12 col-12-sm col-md-6 col-lg-4 col-xl-4 mr-auto mt-4">
+
             <Card key={episode._id} episode={episode} onClick={handleClick}></Card>
           </div>)}
         </div>

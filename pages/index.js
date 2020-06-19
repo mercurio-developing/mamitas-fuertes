@@ -34,7 +34,7 @@ const Home = (props) =>{
         <div className="row quote">
           <div className="col-10 col-sm-8 col-md-9 col-lg-6 col-xl-5 mx-auto my-auto text-center">
             <p className="mt-4">"Hay un secreto en nuestra cultura, y no es que el parto sea doloroso. Es que las mujeres son fuertes".</p>
-            <img className="flower-icon" src="/static/assets/flower_icon.svg" alt="" />
+            <img className="flower-icon" src="/assets/flower_icon.svg" alt="" />
             <br />
             <br />
             <p>Laura Stavoe Harm</p>
@@ -57,7 +57,7 @@ const Home = (props) =>{
         <div className="container h-100">
           <div className="row h-100">
             <div className="col-5 my-auto d-none d-sm-block d-md-block d-lg-block">
-              <img className="becca img-fluid" src="/static/assets/becca.jpg" alt="" />
+              <img className="becca img-fluid" src="/assets/becca.jpg" alt="" />
             </div>
             <div className="col-11 col-sm-7 col-md-7 col-lg-7  my-auto">
               <div className="container">

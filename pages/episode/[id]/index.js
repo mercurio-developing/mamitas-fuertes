@@ -10,7 +10,7 @@ const Episode = () => {
       <div className="col-12">
         <div className="row">
         <div className="col-12 ">
-        <img src={`/static/assets/${episode.thumbnail}`} alt="" className="img-fluid" />
+        <img src={`/assets/${episode.thumbnail}`} alt="" className="img-fluid" />
         </div>
          
         </div>
@@ -19,7 +19,7 @@ const Episode = () => {
             <h1 className="display-4 my-auto">{episode.title}</h1>
           </div>
           <div className="col-6 text-right ">
-            <img src="/static/assets/spotify.jpg" alt="" className="thumbnail h-75 pt-4" />
+            <img src="/assets/spotify.jpg" alt="" className="thumbnail h-75 pt-4" />
           </div>
         </div>
         <div className="row">
