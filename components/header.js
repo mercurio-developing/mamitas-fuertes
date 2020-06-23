@@ -12,7 +12,7 @@ export default function Header({navColor}) {
   return <nav className="navbar navbar-expand-lg  header">
       <Link href="/">
       <a className="navbar-brand" >
-      <img className="logo" src={!navColor ? "static/assets/mamitas_fuertes_black.png" : "static/assets/mamitas_fuertes_white.png"} alt="" />
+      <img className="logo" src={!navColor ? "/mamitas_fuertes_black.png" : "/mamitas_fuertes_white.png"} alt="" />
       </a>
       </Link>
     <button className="navbar-toggler p-0" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
