@@ -63,11 +63,10 @@ const Home = (props) =>{
               <div className="container">
                 <h3 >Mamás Fuertes Historias de Partos Podcast esta organizada por Rebecca Winterfield. Una madre de dos hijos, apasionada por empoderar a las mujeres y ayudarlas a parir sin miedo.</h3>
                 <div className="row">
-                <button className="button mx-auto mt-4">
+                <button onClick={e=>handleClick(e,"/about",{})} className="button mx-auto mt-4">
                   Mas informacion
                 </button>
                 </div>
-              
               </div>
             </div>
           </div>

@@ -4,17 +4,17 @@ export default function Footer({ isDefaultBack }) {
   return <footer className="footer mb-2">
     {isDefaultBack && <div className="container">
       <div className="row footer-links">
-        <div className="col-5 text-right">
+        <div className="col-4 col-sm-5 text-right">
           <Link href="/episodes">
             <a className="nav-link " >Episodes</a>
           </Link>
         </div>
-        <div className="col-2 text-center">
+        <div className="col-4 col-sm-2 text-center">
           <Link href="/about">
             <a className="nav-link " >About</a>
           </Link>
         </div>
-        <div className="col-5 text-left">
+        <div className="col-4 col-sm-5 text-left">
           <Link href="/contact">
             <a className="nav-link " >Contact</a>
           </Link>
