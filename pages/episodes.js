@@ -16,7 +16,6 @@ export default function Episodes() {
       <div className="col-12">
         <div className="row">
           {data.map(episode => <div className="col-12 col-12-sm col-md-6 col-lg-4 col-xl-4 mr-auto mt-4">
-
             <Card key={episode._id} episode={episode} onClick={handleClick}></Card>
           </div>)}
         </div>

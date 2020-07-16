@@ -19,7 +19,15 @@ const Episode = () => {
             <h1 className="display-4 my-auto">{episode.title}</h1>
           </div>
           <div className="col-6 text-right ">
-            <img src="/spotify.jpg" alt="" className="thumbnail h-75 pt-4" />
+          <a href="https://open.spotify.com/episode/2cI3OeQ7jiOlow308YPj1L">
+          <img src="/spotify.jpg" alt="" className="thumbnail h-75 pt-4" />
+
+          </a>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-12">
+          <iframe src={episode.spotify_url} className="w-100" frameborder="0" scrolling="no"></iframe>
           </div>
         </div>
         <div className="row">
