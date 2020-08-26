@@ -11,6 +11,10 @@ body,#__next,.layout{
   }
 }
 
+.thumbnail{
+  height:40% !important;
+}
+
 .logo{
   width: 235px;
   min-height: 55px;
@@ -34,6 +38,25 @@ a{
   &:focus{
     outline:none
   }
+}
+
+.card-button{
+  padding:8px 8px 4px 8px;
+  text-align: center;
+  font-family: ITC Avant Garde Gothic Pro;
+  font-size:10px;
+  background: #F9AA33 0% 0% no-repeat padding-box;
+  box-shadow: 0px 6px 6px #00000029;
+  color: rgba(58, 58, 59,1);
+  opacity: 1;
+  border:none;
+  &:focus{
+    outline:none
+  }
+}
+
+.spotify-button{
+  width:110px;
 }
 
 .header {
@@ -99,25 +122,6 @@ a{
   }
   .episodes{
     min-height: 40vh;
-    h1,h4{
-      line-height: 64px;
-      font-size:32px;
-      font-weight: 450 !important;
-      font-family: ITC Avant Garde Gothic Pro;
-      color: #3A3A3B;
-    }
-    .card{
-      font-family: ITC Avant Garde Gothic Pro,Book !important;
-      letter-spacing: 0px;
-      .date,.footer{
-        font-size:11px !important;
-      }
-      .title{
-        font-size:13px !important;
-        font-weight: 100 !important;
-        letter-spacing: 0.8px;
-      }
-    }
   }
   .home-about{
     min-height: 30vh;
@@ -155,6 +159,8 @@ a{
   background-image: none;
 }
 .episode{
+  box-shadow: 0px 6px 6px #00000029;
+  padding:0px 2px 0px 0px;
   font-family: ITC Avant Garde Gothic Pro,Book !important;
   letter-spacing: 0px;
   h1,h4{
@@ -165,38 +171,18 @@ a{
     color: #3A3A3B;
   }
   .mother-name{
-    font-size:16px !important;
+    font-size:12px !important;
   }
   .date{
-    font-size:12px !important;
+    font-size:10px !important;
   }
 }
 .episodes{
   min-height: 75vh;
-  h1,h4{
-    line-height: 64px;
-    font-size:24px;
-    font-weight: 450 !important;
-    font-family: ITC Avant Garde Gothic Pro;
-    color: #3A3A3B;
-  }
   h2{
-    line-height: 64px;
     font-weight: 450 !important;
     font-family: ITC Avant Garde Gothic Pro;
     color: #3A3A3B;
-  }
-  .card{
-    font-family: ITC Avant Garde Gothic Pro,Book !important;
-    letter-spacing: 0px;
-    .date,.footer{
-      font-size:12px !important;
-    }
-    .title{
-      font-size:14px !important;
-      font-weight: 100 !important;
-      letter-spacing: 0.8px;
-    }
   }
 }
 
@@ -252,14 +238,6 @@ a{
     }
     .episodes{
       min-height: 60vh;
-      .card{
-        .date,.footer{
-          font-size:11px !important;
-        }
-        .title{
-          font-size:14px !important;
-        }
-      }
     }
     .home-about{
       min-height: 40vh;
@@ -280,13 +258,13 @@ a{
 
   .episode{
     h1,h4{
-      font-size:28px;
+      font-size:24px !important;
     }
     .mother-name{
-      font-size:18px !important;
+      font-size:12px !important;
     }
     .date{
-      font-size:14px !important;
+      font-size:10px !important;
     }
   }
 }
@@ -304,15 +282,7 @@ a{
       }
     }
     .episodes{
-      min-height: 70vh;
-      .card{
-        .date,.footer{
-          font-size:11px !important;
-        }
-        .title{
-          font-size:14px !important;
-        }
-      }
+      min-height: 40vh;
     }
     .home-about{
       min-height: 70vh;
@@ -340,14 +310,6 @@ a{
     }
     .episodes{
       min-height: 30vh;
-      .card{
-        .date,.footer{
-          font-size:12px !important;
-        }
-        .title{
-          font-size:14px !important;
-        }
-      }
     }
     .home-about{
       min-height: 80vh;

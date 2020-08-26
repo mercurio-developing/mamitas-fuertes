@@ -21,7 +21,7 @@ export default function Header({navColor}) {
       <FontAwesome
         className="super-crazy-colors"
         name=" fa-bars"
-        size="2px"
+        size="2x"
         style={{ textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }}
       />
       </span>

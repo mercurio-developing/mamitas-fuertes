@@ -1,11 +1,8 @@
-import Card from "../components/card"
 import { useRouter } from "next/router"
-import { episodesReducer,initialEpisodes} from "../redux/episodes"
 
 const Home = (props) =>{
   console.log(props)
   const router = useRouter()
-  const [episodes] = React.useReducer(episodesReducer, initialEpisodes);
   const handleClick = (e,href,episode) => {
     console.log(href,episode)
     e.preventDefault()
@@ -38,18 +35,6 @@ const Home = (props) =>{
             <br />
             <br />
             <p>Laura Stavoe Harm</p>
-          </div>
-        </div>
-      </div>
-      <div className="col-12 episodes mb-5">
-        <div className="row ">
-          <div className="col-11 mx-auto mt-5">
-            <h1>Ultimos Episodios</h1>
-            <div className="row">
-              {episodes.map(episode =>  <div key={episode._id } className="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-2 mr-auto">
-                <Card key={episode._id} episode={episode} onClick={handleClick}></Card>
-              </div>)}
-            </div>
           </div>
         </div>
       </div>
