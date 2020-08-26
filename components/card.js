@@ -5,22 +5,28 @@ export default function Card({ episode, handlePlay }) {
         <img src="/card_thumbnail.png" className="card-img-top w-100 h-100 pl-0" alt="..." />
       </div>
       <div className="col-6 pl-0">
-        <div className="card-body p-1">
+        <div className="card-body h-50 p-1">
           <h5 className="title mt-1">{episode.title}</h5>
           <p className="mother-name text-left m-0">with {episode.mother_name}</p>
           <span className="date">{episode.date}</span>
         </div>
-        <div className="text-right mt-2">
-          <a href={episode.spotify_url}>
-            <img src="/spotify.png" alt="" className="spotify-button" />
-          </a>
-
-        </div>
-        <div className="text-right mt-2">
-          <button onClick={(e) => handlePlay(episode.spotify_player)} className="card-button w-50">
-            PLAY
+        <div className="h-25 my-auto">
+          <div className="text-right text-bottom">
+            <a style={{
+              position: "absolute", bottom: "40px", right: "5px"
+            }} href={episode.spotify_url}>
+              <img src="/spotify.png" alt="" className="spotify-button" />
+            </a>
+          </div>
+          <div className="text-right mt-2 mb-2">
+            <button onClick={(e) => handlePlay(episode.spotify_player)} className="card-button" style={{
+              position: "absolute", bottom: "5px", right: "5px"
+            }}>
+              PLAY
           </button>
+          </div>
         </div>
+
       </div>
     </div>
 
