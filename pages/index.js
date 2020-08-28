@@ -1,12 +1,12 @@
 import { useRouter } from "next/router"
 
-const Home = (props) =>{
+const Home = (props) => {
   console.log(props)
   const router = useRouter()
-  const handleClick = (e,href,episode) => {
-    console.log(href,episode)
+  const handleClick = (e, href, episode) => {
+    console.log(href, episode)
     e.preventDefault()
-    router.push({pathname:`${href}`})
+    router.push({ pathname: `${href}` })
   }
   return (
     <div className="row home">
@@ -44,12 +44,12 @@ const Home = (props) =>{
             <div className="col-5 my-auto d-none d-sm-block d-md-block d-lg-block">
               <img className="becca img-fluid" src="/becca.jpg" alt="" />
             </div>
-            <div className="col-11 col-sm-7 col-md-7 col-lg-7  my-auto">
-              <div className="container">
+            <div className="col-12 col-sm-7 col-md-7 col-lg-7  my-auto">
+              <div className="container mt-4 mt-sm-4 mt-md-0">
                 <h3 >Mamás Fuertes Historias de Partos Podcast esta organizada por Rebecca Winterfield. Una madre de dos hijos, apasionada por empoderar a las mujeres y ayudarlas a parir sin miedo.</h3>
                 <div className="row">
-                <button onClick={e=>handleClick(e,"/about",{})} className="button mx-auto mt-4">
-                  Mas informacion
+                  <button onClick={e => handleClick(e, "/about", {})} className="button mx-auto mt-4">
+                    Mas informacion
                 </button>
                 </div>
               </div>
