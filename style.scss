@@ -41,7 +41,7 @@ a{
 }
 
 .card-button{
-  padding:8px 8px 4px 8px;
+  padding:10px 8px 5px 8px;
   width: 110px;
   text-align: center;
   font-family: ITC Avant Garde Gothic Pro;
@@ -58,6 +58,10 @@ a{
 
 .spotify-button{
   width:110px;
+}
+
+.player{
+  height: 100px;
 }
 
 .header {
@@ -179,7 +183,10 @@ a{
   }
 }
 .episodes{
-  min-height: 75vh;
+  min-height: 90vh;
+  .card-div{
+    margin: 0 auto !important;
+  }
   h2{
     font-weight: 450 !important;
     font-family: ITC Avant Garde Gothic Pro;
@@ -219,9 +226,13 @@ a{
    }
 }
 .episodes{
+  min-height: 90vh;
   h1{
     font-size:24px;
   }
+}
+.player{
+  height: 160px;
 }
 }
 // Medium devices (tablets, 768px and up)
@@ -268,6 +279,8 @@ a{
       font-size:10px !important;
     }
   }
+
+  
 }
 
 // Large devices (desktops, 992px and up)
@@ -290,6 +303,12 @@ a{
       h3{
         font-size:24px !important;
       }
+    }
+  }
+  .episodes{
+    min-height: 100vh;
+    .card-div{
+      margin:4px 4%!important;
     }
   }
 }
@@ -338,5 +357,11 @@ a{
     background-position: -250px 0;
     background-repeat: no-repeat;
     background-size: cover;
+  }
+    .episodes{
+      min-height: 100vh;
+      .card-div{
+        margin:4px 4%!important;
+      }
   }
  }
