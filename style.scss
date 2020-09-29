@@ -20,7 +20,7 @@ body,#__next,.layout{
   min-height: 55px;
 }
 a{
-  font-family: ITC Avant Garde Gothic Pro ;
+  font-family: 'ITC Avant Garde Gothic Pro',sans-serif ;
   font-size:14px;
   color: #3A3A3B;
 }
@@ -28,7 +28,7 @@ a{
 .button{
   padding:9px 10px 6px 10px;
   text-align: center;
-  font-family: ITC Avant Garde Gothic Pro;
+  font-family: ITC Avant Garde Gothic Pro,sans-serif; 
   font-size:14px;
   background: #F9AA33 0% 0% no-repeat padding-box;
   box-shadow: 0px 6px 6px #00000029;
@@ -44,7 +44,7 @@ a{
   padding:10px 8px 5px 8px;
   width: 110px;
   text-align: center;
-  font-family: ITC Avant Garde Gothic Pro;
+  font-family: ITC Avant Garde Gothic Pro,sans-serif;  
   font-size:10px;
   background: #F9AA33 0% 0% no-repeat padding-box;
   box-shadow: 0px 6px 6px #00000029;
@@ -96,12 +96,10 @@ a{
   .jumbotron{
     background-color:transparent !important;
     text-align: left;
-    font-family: ITC Avant Garde Gothic Pro;
-    letter-spacing: 0px;
+      font-family: ITC Avant Garde Gothic Pro,sans-serif;    letter-spacing: 0px;
     color: #3A3A3B;
     h2{
-      font-family: ITC Avant Garde Gothic Pro;
-      letter-spacing: 0px;
+        font-family: ITC Avant Garde Gothic Pro,sans-serif;      letter-spacing: 0px;
       color: #3A3A3B;
       font-size:24px;
       font-weight: 500 !important;
@@ -118,8 +116,7 @@ a{
       color: #FFFFFF;
       font-size:20px;
       font-weight: 400 !important;
-      font-family: ITC Avant Garde Gothic Pro;
-    }
+      font-family: ITC Avant Garde Gothic Pro,sans-serif;    }
     .flower-icon{
       width: 48px;
       min-height: 48px;
@@ -145,13 +142,13 @@ a{
   color:#fff;
   h1{
     font-size:24px;
-    font-family: ITC Avant Garde Gothic Pro,Book !important;
+    font-family: ITC Avant Garde Gothic Pro,Book,sans-serif !important;
     letter-spacing: 0px;
     font-weight: 400;
   }
   h4,h3{
     font-size:18px;
-    font-family: ITC Avant Garde Gothic Pro,Book !important;
+    font-family: ITC Avant Garde Gothic Pro,Book,sans-serif !important;
     letter-spacing: 0px;
     font-weight: 400;
     color: #FFFFFF; 
@@ -166,12 +163,12 @@ a{
 .episode{
   box-shadow: 0px 6px 6px #00000029;
   padding:0px 2px 0px 0px;
-  font-family: ITC Avant Garde Gothic Pro,Book !important;
+  font-family: ITC Avant Garde Gothic Pro,Book ,sans-serif !important;
   letter-spacing: 0px;
   h1,h4{
     font-size:18px;
     font-weight: 400;
-    font-family: ITC Avant Garde Gothic Pro,Book !important;
+    font-family: ITC Avant Garde Gothic Pro,Book,sans-serif  !important;
     letter-spacing: 0px;
     color: #3A3A3B;
   }
@@ -189,8 +186,7 @@ a{
   }
   h2{
     font-weight: 450 !important;
-    font-family: ITC Avant Garde Gothic Pro;
-    color: #3A3A3B;
+      font-family: ITC Avant Garde Gothic Pro,sans-serif;    color: #3A3A3B;
   }
 }
 
@@ -337,7 +333,7 @@ a{
       background-position: right bottom;
       background-repeat: no-repeat;
       background-size: 100% 100%;
-      font-family: ITC Avant Garde Gothic Pro,Book !important;
+      font-family: ITC Avant Garde Gothic Pro,Book,sans-serif !important;
       z-index: 1;
       h3{
         font-size:28px !important;
