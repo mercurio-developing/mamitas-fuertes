@@ -6,7 +6,7 @@ export default function Card({ episode, handlePlay }) {
       </div>
       <div className="col-12 col-sm-6 col-md-6 pl-1 pl-sm-1 pl-md-0 pl-lg-0">
         <div className="card-body h-50 p-1">
-          <h5 className="title mt-1">{episode.title}</h5>
+          <h5 className="title mt-1 mb-0">{episode.title}</h5>
           <p className="mother-name text-left m-0">with {episode.mother_name}</p>
           <span className="date">{episode.date}</span>
         </div>

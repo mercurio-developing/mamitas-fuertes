@@ -3,7 +3,7 @@ export default function Contact() {
     <div className="row h-50 ">
       <div className="col-12 my-auto text-center">
         <h1 className="display-4 ">
-          Contact
+          Contacto
         </h1>
         <br />
         <br />

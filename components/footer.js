@@ -6,17 +6,17 @@ export default function Footer({ isDefaultBack }) {
       <div className="row footer-links">
         <div className="col-4 col-sm-5 text-right">
           <Link href="/episodes">
-            <a className="nav-link " >Episodes</a>
+            <a className="nav-link " >Episodios</a>
           </Link>
         </div>
         <div className="col-4 col-sm-2 text-center">
           <Link href="/about">
-            <a className="nav-link " >About</a>
+            <a className="nav-link " >Info</a>
           </Link>
         </div>
         <div className="col-4 col-sm-5 text-left">
           <Link href="/contact">
-            <a className="nav-link " >Contact</a>
+            <a className="nav-link " >Contacto</a>
           </Link>
         </div>
       </div>
