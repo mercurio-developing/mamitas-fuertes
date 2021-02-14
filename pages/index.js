@@ -16,8 +16,8 @@ const Home = (props) => {
             <div className="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-9 ml-auto pl-5 pt-4">
               <div className="jumbotron jumbotron-fluid">
                 <div className="container">
-                  <h1 className="d-none d-sm-none d-md-none d-lg-block display-4 ">Un podcast para escuchar y compartir historias de partos positivos.</h1>
-                  <h2 className="d-md-block d-lg-none ">Un podcast para escuchar y compartir historias de partos positivos.</h2>
+                  <h1 className="d-none d-sm-none d-md-none d-lg-block display-4 ">Un podcast para escuchar y compartir historias de partos que empoderan.</h1>
+                  <h2 className="d-md-block d-lg-none ">Un podcast para escuchar y compartir historias de partos que empoderan.</h2>
                   <button onClick={e => handleClick(e, "/episodes", {})} className="button mt-4">
                     Escuchar Ahora
                   </button>
@@ -46,7 +46,7 @@ const Home = (props) => {
             </div>
             <div className="col-12 col-sm-7 col-md-7 col-lg-7  my-auto">
               <div className="container mt-4 mt-sm-4 mt-md-0">
-                <h3>Mamitas Fuertes Historias de Partos Podcast esta organizada por mi Rebecca Winterfield. Soy madre de dos hijos, quiero compartir historias de partos positivos con las nuevas familias.</h3>
+                <h3>Mamitas Fuertes Historias de Partos Podcast esta organizada por mi Rebecca Winterfield. Soy madre de dos hijos, quiero compartir historias de partos que empoderan con las nuevas familias.</h3>
                 <div className="row">
                   <button onClick={e => handleClick(e, "/about", {})} className="button mx-auto mt-4">
                     Mas informacion

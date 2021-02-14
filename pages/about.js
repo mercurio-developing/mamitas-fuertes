@@ -9,8 +9,8 @@ export default function About() {
     <div className="row h-100">
       <div className="col-12 my-auto">
         <h2 className="d-none d-sm-none d-md-none d-lg-block display-4 ">
-          En este podcast compartimos historias de partos positivos, donde las mujeres comparten sus experiencias, miedos, fortalezas y alegrias.</h2>
-        <h1 className="d-md-block d-lg-none "> Este podcast es para compartir historias de partos positivos, las mujeres somos fuertes y capaces de parir nuestros hijos.</h1>
+          En este podcast compartimos historias de partos que empoderan, donde las mujeres comparten sus experiencias, miedos, fortalezas y alegrias.</h2>
+        <h1 className="d-md-block d-lg-none "> Este podcast es para compartir historias de partos que empoderan, las mujeres somos fuertes y capaces de parir nuestros hijos.</h1>
       </div>
       <div className="col-12">
         <h4>En cada episodio una mujer comparte su historia. Escuchar historias de partos ayuda a la nueva familia a prepararse para el embarazo, nacimiento y post-parto.</h4>

@@ -19,8 +19,32 @@ export default [
     _id: "003",
     title: "003: Alma",
     mother_name: "Greta Quijano",
-    date: "19 OCTUBREt 2020",
+    date: "19 OCTUBRE 2020",
     spotify_url: "https://open.spotify.com/episode/2wIfLHcuOwFktlhfRBHmY6",
     spotify_player: "https://anchor.fm/mamitasfuertes/embed/episodes/003-Alma-el9dr1"
+  },
+  {
+    _id: "004",
+    title: "004: Lila",
+    mother_name: "Greta Quijano",
+    date: "23 NOVIEMBRE 2020",
+    spotify_url: "https://open.spotify.com/episode/4Z2nYXBiEEwemBh4sul1fn",
+    spotify_player: "https://anchor.fm/mamitasfuertes/embed/episodes/004-Lila-emsc89"
+  },
+  {
+    _id: "005",
+    title: "005: Olympia",
+    mother_name: "Valeria Chung",
+    date: "16 DICIEMBRE 2020",
+    spotify_url: "https://open.spotify.com/episode/3lpf9SNsohvqIyzF4PK4SO",
+    spotify_player: "https://anchor.fm/mamitasfuertes/embed/episodes/005-Olympia-enrrri"
+  },
+  {
+    _id: "006",
+    title: "005: Nitiay",
+    mother_name: "Val",
+    date: "8 FEBRUARY 2021",
+    spotify_url: "https://open.spotify.com/episode/7BicjvsNR30YFUxat3PymX",
+    spotify_player: "https://anchor.fm/mamitasfuertes/episodes/006-Nitiay-eq4qn9"
   }
 ]
