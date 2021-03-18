@@ -2,7 +2,7 @@ export default function Card({ episode, handlePlay }) {
   return <div key={episode._id} className="card border-0 w-100 h-100" >
     <div className="row episode">
       <div className="col-12 col-sm-6 col-md-6 pl-0">
-        <img src="/card_thumbnail.png" className="card-img-top w-100 h-100 pl-0" alt="..." />
+        <img src={episode.thumbnail} className="card-img-top w-100 h-100 pl-0" alt="..." />
       </div>
       <div className="col-12 col-sm-6 col-md-6 pl-1 pl-sm-1 pl-md-0 pl-lg-0">
         <div className="card-body h-50 p-1">

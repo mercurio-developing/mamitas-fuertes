@@ -7,9 +7,9 @@ export default function Contact() {
         </h1>
         <br />
         <br />
-        <h3>Email: contact@mamitasfuertes.com</h3>
+        <h3>Email: mamitasfuertes@gmail.com</h3>
         <br />
-        <h3>Skype: mamitasfuertespodcast</h3>
+        <h3>Instagram: historias.de.partos</h3>
       </div>
     </div>
   </div>

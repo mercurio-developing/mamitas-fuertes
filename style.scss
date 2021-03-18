@@ -61,7 +61,7 @@ a{
 }
 
 .player{
-  height: 100px;
+  height: 100px !important;
 }
 
 .header {
@@ -211,6 +211,7 @@ a{
         font-size:18px !important;
       }
     }
+
  }
  .about,.contact,.share{
   height: 60vh;
@@ -228,9 +229,60 @@ a{
   }
 }
 .player{
-  height: 160px;
+  height: 100px !important;
 }
 }
+
+@media (min-width: 785px) { 
+  .logo{
+    width: 300px;
+    min-height: 75px;
+  }
+  
+  .home{
+    .quote{
+      p{
+        font-size:24px;
+      }
+    }
+    .episodes{
+      min-height: 60vh;
+    }
+    .home-about{
+      min-height: 40vh;
+      h3{
+        font-size:20px !important;
+      }
+    }
+  }
+  .about,.contact,.share{
+    min-height: 80vh;
+    h1{
+      font-size:42px;
+    }
+    h4,h3{
+      font-size:28px;
+     }
+  }
+
+  .episode{
+    h1,h4{
+      font-size:24px !important;
+    }
+    .mother-name{
+      font-size:12px !important;
+    }
+    .date{
+      font-size:10px !important;
+    }
+  }
+
+  .player{
+    height: 160px !important;
+  }
+}
+
+
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) { 
   .logo{
@@ -276,7 +328,9 @@ a{
     }
   }
 
-  
+  .player{
+    height: 100px;
+  }
 }
 
 // Large devices (desktops, 992px and up)
@@ -306,6 +360,9 @@ a{
     .card-div{
       margin:4px 4%!important;
     }
+  }
+  .player{
+    height: 160px !important;
   }
 }
 
@@ -359,5 +416,8 @@ a{
       .card-div{
         margin:4px 4%!important;
       }
+  }
+  .player{
+    height: 160px !important;
   }
  }
