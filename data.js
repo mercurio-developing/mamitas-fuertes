@@ -61,5 +61,13 @@ export default [
     thumbnail:"anka-thumbnail.jpg",
     spotify_url: "https://open.spotify.com/episode/5EKqcctkyc77Zc7NlUAlEH",
     spotify_player: "https://anchor.fm/mamitasfuertes/embed/episodes/007-Anka-esqpf2"
+  },
+  {
+    _id: "008",
+    title: "008: Ruro",
+    date: "15 ABRIL 2021",
+    thumbnail:"ruro-thumbnail.jpg",
+    spotify_url: "https://open.spotify.com/episode/42BNEWHsRwzWg23AKM0Fe4",
+    spotify_player: "https://anchor.fm/mamitasfuertes/embed/episodes/008-Ruro-eutjqi"
   }
 ]
