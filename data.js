@@ -72,7 +72,7 @@ export default [
   },
   {
     _id: "009",
-    title: "009: Ino Leve",
+    title: "009: Ino Lev",
     mother_name:"Hayley",
     date: "27 JUNIO 2021",
     thumbnail:"inolev-thumbnail.jpg",
