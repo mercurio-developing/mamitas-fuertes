@@ -69,5 +69,14 @@ export default [
     thumbnail:"ruro-thumbnail.jpg",
     spotify_url: "https://open.spotify.com/episode/42BNEWHsRwzWg23AKM0Fe4",
     spotify_player: "https://anchor.fm/mamitasfuertes/embed/episodes/008-Ruro-eutjqi"
+  },
+  {
+    _id: "009",
+    title: "009: Ino Leve",
+    mother_name:"Hayley",
+    date: "27 JUNIO 2021",
+    thumbnail:"inolev-thumbnail.jpg",
+    spotify_url: "https://open.spotify.com/episode/7hFgQeatKR8fVVL5m7EDcZ",
+    spotify_player: "https://anchor.fm/mamitasfuertes/embed/episodes/009-Ino-Lev-e13hd5h"
   }
 ]
