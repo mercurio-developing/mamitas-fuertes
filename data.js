@@ -78,5 +78,14 @@ export default [
     thumbnail:"inolev-thumbnail.jpg",
     spotify_url: "https://open.spotify.com/episode/7hFgQeatKR8fVVL5m7EDcZ",
     spotify_player: "https://anchor.fm/mamitasfuertes/embed/episodes/009-Ino-Lev-e13hd5h"
+  },
+  {
+    _id: "011",
+    title: "011: Lakshmi y Quetzal",
+    mother_name:"Ljubi",
+    date: "2 OCTUBRE 2021",
+    thumbnail:"lakshmi-y-quetzal-thumbnail.jpg",
+    spotify_url: "https://open.spotify.com/episode/2koROhFDWzju0drnF7AfhV",
+    spotify_player: "https://anchor.fm/mamitasfuertes/embed/episodes/011-Lakshmi-y-Quetzal-e184l5h"
   }
 ]
