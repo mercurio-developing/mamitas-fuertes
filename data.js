@@ -80,12 +80,21 @@ export default [
     spotify_player: "https://anchor.fm/mamitasfuertes/embed/episodes/009-Ino-Lev-e13hd5h"
   },
   {
-    _id: "011",
-    title: "011: Lakshmi y Quetzal",
+    _id: "010",
+    title: "010: Lakshmi y Quetzal",
     mother_name:"Ljubi",
     date: "2 OCTUBRE 2021",
     thumbnail:"lakshmi-y-quetzal-thumbnail.jpg",
     spotify_url: "https://open.spotify.com/episode/2koROhFDWzju0drnF7AfhV",
-    spotify_player: "https://anchor.fm/mamitasfuertes/embed/episodes/011-Lakshmi-y-Quetzal-e184l5h"
+    spotify_player: "https://anchor.fm/mamitasfuertes/embed/episodes/010-Lakshmi-y-Quetzal-e184l5h"
+  },
+  {
+    _id: "011",
+    title: "011: Lev",
+    mother_name:"Agustina",
+    date: "4 DICIEMBRE 2021",
+    thumbnail:"lev-thumbnail.jfif",
+    spotify_url: "https://open.spotify.com/episode/35E9mvbLc0QWZpqXtJhtS9",
+    spotify_player: "https://anchor.fm/mamitasfuertes/embed/episodes/011-Lev-e1am2rr"
   }
 ]
