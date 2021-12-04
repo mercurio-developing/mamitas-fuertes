@@ -42,7 +42,7 @@ const Home = (props) => {
         <div className="container h-100">
           <div className="row h-100">
             <div className="col-5 my-auto d-none d-sm-block d-md-block d-lg-block">
-              <img className="becca img-fluid" src="/becca.jpg" alt="" />
+              <img className="becca img-fluid" src="/becca.jfif" alt="" />
             </div>
             <div className="col-12 col-sm-7 col-md-7 col-lg-7  my-auto">
               <div className="container mt-4 mt-sm-4 mt-md-0">
